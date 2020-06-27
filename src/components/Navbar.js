@@ -25,9 +25,9 @@ const classes = useStyles();
         <Grid container >
           <Grid item xs={false} sm={1} />
           <Grid item xs={12} sm={10} >
-            <Grid item container alignItems='center' justify="space-between" className={classes.navbarStyles}>
+            <Grid item container alignItems='center' justify="space-between">
               <h4>Car Trader</h4>
-              <IconButton className={classes.navLink}>
+              <IconButton >
                 <Menu />
               </IconButton>
             </Grid>
